@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+    background-color: #8409b1;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.quote{
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    text-align: center;   
+}
+.line{
+    width: 100%;
+    max-width: 800px;
+    height: 1.5px;
+    background-color: white;
+    margin: 10px 0px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    margin: 20px 0px; 
+    width: 100%;
+    max-width: 700px;
+}
+.author{
+    color: white;
+    font-size: 18pxpx;
+    font-weight: 500;  
+}
+.icons{
+    display: flex;
+    cursor: pointer;
+    gap: 30px;
+}
+
+.icons svg {
+    width: 30px; /* Increased icon width */
+    height: 30px; /* Increased icon height */
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin-top: 150px; /* Adjusted margin for smaller screens */
+    }
+
+    .quote {
+        font-size: 20px; /* Smaller font size for small screens */
+        padding: 10px; /* Reduced padding */
+    }
+
+    .line {
+        width: 90%; /* Full width for smaller screens */
+    }
+
+    .bottom {
+        flex-direction: column; /* Stack items vertically on small screens */
+        gap: 10px; /* Add spacing between items */
+    }
+
+    .author {
+        font-size: 16px; /* Smaller font size for small screens */
+    }
+
+    .icons {
+        gap: 10px; /* Reduced gap for small screens */
+    }
+     .icons svg {
+        width: 25px; /* Adjusted icon width for small screens */
+        height: 25px; /* Adjusted icon height for small screens */
+    }
+} 
+
+
