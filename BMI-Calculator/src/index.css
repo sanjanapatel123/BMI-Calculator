@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway,'sans-serif';
+    
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #070215;
+    
+}
+.container{
+box-shadow: 0px 0px 14px pink;
+border-radius: 8px;
+padding: 1rem;
+background-color: #f7f7f7;
+}
+input{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 8px 4px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+.btn{
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 8px 0px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-outline{
+    background-color: #fff;
+    color: #333;
+}
+.center{
+    text-align: center;
+    margin: 20px 0;
+}
+p{
+    margin: 10px 0;
+
+}
+.img-container{
+    text-align: center;  
+}
+.img-container img{
+    height: 150px;
+}
